@@ -1,0 +1,14 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.form-control {
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
