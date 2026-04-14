@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme Carnival</title>
+    <link rel="stylesheet" href="../supreme-carnival/styles/index.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="../supreme-carnival/public/Style_shop_logo.webp" class="logo">StyleShop</a>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Cart</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Nueva Colección 2026</h1>
+        <p>Estilo y comodidad en cada detalle.</p>
+        <br>
+        <a href="#shop" class="btn-primary">Comprar ahora</a>
+    </header>
+
+    <main class="section" id="shop">
+        <h2>Productos Destacados</h2>
+        <div class="products-grid">
+            
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80" alt="Producto">
+                <div class="card-body">
+                    <h3>Reloj Minimalista</h3>
+                    <small>Accesorios</small>
+                    <span class="price">$120.00</span>
+                    <button class="btn-primary" style="width: 100%;">Agregar al Carrito</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=500&q=80" alt="Producto">
+                <div class="card-body">
+                    <h3>Zapatillas Pink</h3>
+                    <small>Calzado</small>
+                    <span class="price">$85.00</span>
+                    <button class="btn-primary" style="width: 100%;">Agregar al Carrito</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=500&q=80" alt="Producto">
+                <div class="card-body">
+                    <h3>Jeans Premium</h3>
+                    <small>Ropa</small>
+                    <span class="price">$60.00</span>
+                    <button class="btn-primary" style="width: 100%;">Agregar al Carrito</button>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <section class="section">
+        <h2>Tu Carrito</h2>
+        <div class="product-card" style="max-width: 500px; padding: 16px;">
+            <div class="cart-item">
+                <div>
+                    <p>Reloj Minimalista</p>
+                    <small>Cantidad: 1</small>
+                </div>
+                <div style="text-align: right;">
+                    <p><strong>$120.00</strong></p>
+                    <button class="btn-danger">Eliminar</button>
+                </div>
+            </div>
+            <div style="text-align: right; margin-top: 16px;">
+                <h3>Total: $120.00</h3>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
