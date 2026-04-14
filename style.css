@@ -1,0 +1,32 @@
+:root {
+  --color-volt: #bef329;
+  --color-obsidian: #1a1a1a;
+  --color-concrete: #8e8e93;
+  --color-ice-white: #f2f2f7;
+}
+
+body {
+  background-color: var(--color-obsidian);
+  color: var(--color-ice-white);
+  font-family: sans-serif;
+}
+
+.primary-btn {
+  background-color: var(--color-volt);
+  color: var(--color-obsidian);
+  font-weight: bold;
+}
+
+.secondary-text {
+  color: var(--color-concrete);
+}
+
+.card {
+  background-color: var(--color-ice-white);
+  color: var(--color-obsidian);
+  border: 1px solid var(--color-concrete);
+}
+
+.accent-border {
+  border-color: var(--color-volt);
+}
